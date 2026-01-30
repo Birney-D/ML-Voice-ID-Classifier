@@ -1,0 +1,46 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+ENV/
+venv/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files
+data/audio/raw/
+data/audio/processed/*.csv  # optional: keep if you want to include the processed CSV
+# Alternatively, you can ignore all processed data:
+# data/audio/processed/
+
+# Model files
+*.pkl
+*.h5
+*.pt
+
+# Logs
+*.log
+
+# IDE files
+.idea/
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# Misc
+*.swp
+*.swo
