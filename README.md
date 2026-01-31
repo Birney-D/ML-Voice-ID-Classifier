@@ -17,10 +17,11 @@ A pre-trained model is included, but this project is designed to be **re-trained
 
 ## Project structure
 
-data/audio/raw        -> your .wav files
-data/audio/processed  -> extracted features
-notebooks/            -> model training
-src/speech_rec/       -> main application
+data/audio/raw        -> your .wav files go here
+data/audio/processed  -> extracted features (.csv file) go here
+notebooks/            -> model training code 
+src/speech_rec/       -> main application code
+pp_presentation.pptx  -> overview of project goal, implementation, challenges, and outcomes
 
 ## Requirements
 
